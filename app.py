@@ -10,3 +10,5 @@ model.fit(X, y)
 
 prediction = model.predict([[6]])    
 print(f"Predicted salary for 6 years of experience: {prediction[0]}")   
+
+print("NGIT is deployed successfully the project")
