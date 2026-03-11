@@ -26,3 +26,6 @@ jobs:
 
       - name: Run Docker Container
         run: docker run ml-app:latest
+
+      - name: Deploy Container
+        run: docker run ml-app:latest
